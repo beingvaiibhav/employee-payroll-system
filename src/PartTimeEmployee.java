@@ -10,5 +10,6 @@ public class PartTimeEmployee extends Employee {
     @Override
     public double CalculateSalary() {
         return hourlyRate * hoursWorked;
+        System.out.println("The salary is " + CalculateSalary() );
     }
 }
